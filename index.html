@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="uyin">
+    <div class="all">
+        <div class="beginner" id="beginner">
+            <div class="users">
+                <div>
+                    <p class="p-type">Iltimos o'yinni boshlash uchun o'zingiz uchun biror nom tanlang.</p>
+                </div>
+                <div>
+                    <p id="userp" class="userName">Username:</p><br>
+                    <input id="username" class="username" type="text" placeholder="Username..." onkeyup="pattern1()" >
+                </div>
+                <div>
+                    <button class="Restart" onclick="start()">Start</button>
+                </div>  
+            </div>
+            <div class="beginnerC"></div>
+        </div>
+        <div class="winner" id="winner">
+                <div class="win">
+                    <h1 class="userWin">You are Winner!!!</h1>
+                    <button class="Restart" onclick="start()">Restart</button>
+                    <p id="vaqt">0</p>
+                    <p id="bos">0</p>
+                </div>
+                <div class="winnerC"></div>
+        </div>
+        <div class="gamer" id="gamer">Gamer:</div>     
+        <div class="qolip">
+            <button class="kub"><h1 class="kub" id="kub1" onclick="kub1()"></h1></button>
+            <button class="kub"><h1 class="kub" id="kub2" onclick="kub2()"></h1></button>
+            <button class="kub"><h1 class="kub" id="kub3" onclick="kub3()"></h1></button>
+            <button class="kub"><h1 class="kub" id="kub4" onclick="kub4()"></h1></button>
+            <button class="kub"><h1 class="kub" id="kub5" onclick="kub5()"></h1></button>
+            <button class="kub"><h1 class="kub" id="kub6" onclick="kub6()"></h1></button>
+            <button class="kub"><h1 class="kub" id="kub7" onclick="kub7()"></h1></button>
+            <button class="kub"><h1 class="kub" id="kub8" onclick="kub8()"></h1></button>
+            <button class="kub"><h1 class="kub" id="kub9" onclick="kub9()"></h1></button>   
+        </div>
+        <div id="btn-start">
+            <button class="start" id="start" onclick="start()">Shuffel</button>    
+        </div>
+        <div class="timer">
+            <p id="output">Timer:0:0:0</p>
+            <p id="botTimer">Yurishlar soni:0</p>
+        </div>
+    </div>
+
+</div>
+
+
+<script src="js/main.js"></script>
+
+
+</body>
+</html>
