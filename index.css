@@ -1,0 +1,215 @@
+body{ background: rgb(120, 130, 131);}
+*{box-sizing: border-box;}
+div.uyin{
+width: 100%;
+display: flex;
+justify-content: center;
+padding: 30px 5px 30px 5px;   
+}
+div.qolip{
+   width: 100%;
+   height: 400px;
+   position: relative;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   background: rgb(211, 208, 208);
+   justify-content: center;
+   border-radius: 10px;
+   overflow: hidden;
+  
+}
+ .Restart{
+     border: none;
+     padding: 10px 15px;
+     background-color: rgb(192, 121, 180);
+     color:#fff;
+     font-size: 16px;
+     border-radius: 10px;
+     font-weight: 600;
+     outline: none;
+     width: 200px;
+ }
+ .timer{
+     width: 100%;
+     text-align: center;
+     background: rgb(107, 120, 155);
+ }
+#output,#botTimer{
+     color: rgb(207, 204, 204);
+ }
+button.kub{
+width: 31%;
+height: 31%;
+background: rgb(107, 120, 155);
+border-radius: 10px;
+margin:1px;
+align-items: center;
+justify-content: center;
+border:1px solid #fff;    
+outline: none;
+cursor: pointer;
+}
+button.kub:hover{
+    background: rgb(138, 149, 180);
+}
+h1.kub{
+    color: #fff;
+    font-size: 30px;   
+    padding: 30%; 
+}
+button.start{
+ background:rgb(107, 120, 155);
+ border: 2px solid #fff;
+ color: #fff;
+ width: 100%;
+ height: 40px;
+ margin: 20px 0px;
+ border-radius: 10px;
+ font-size: 20px;
+ font-weight: 500;
+ outline: none;
+ cursor: pointer;
+}
+button.start:hover{
+    background:rgb(154, 166, 201);
+}
+.all{
+    width: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgb(221, 203, 203);
+}
+div.beginner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.beginnerC{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 0 !important;
+}
+.users{
+    width: 100%;
+    background-color: #fff;
+    z-index: 1 !important;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+}
+.users div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 5px 0px;
+}
+.userName, .users input{
+    height: 30px;
+    margin: 0;
+    font-size: 16px;
+
+}
+.userName{
+    background-color: rgb(86, 139, 92);
+    border-radius: 5px 0px 0px 5px;
+    color: #fff;
+    font-weight: 600;
+    padding: 5px 10px;
+}
+.users input{
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    padding: 5px;
+    background-color:#fff;
+    border: 1px solid  rgb(86, 139, 92);
+    outline: none;
+}
+.userNameHover{
+    background-color: rgb(173, 58, 58) !important;
+}
+.erroruser{
+    border: 1px solid  rgb(173, 58, 58) !important;
+}
+.p-type{
+    font-weight: 600;
+    opacity: 0.9;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.gamer{
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: rgb(107, 120, 155);
+    padding: 15px;
+    color:#fff;
+    font-weight: 600;
+}
+.winner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    display: none;
+
+}
+.winnerC{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 0;
+    opacity: 0.6;
+}
+div.win{
+    width: 100%;
+    background: rgb(231, 224, 224);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    border-radius: 10px;}
+div.win h1{
+color:black;
+font-size: 20px;
+}
+#vaqt,#bos{
+    color: black;
+}
+@media screen and (max-width:420px){
+    body{margin: 0 !important;}
+    div.uyin{
+        padding: 0 !important;
+    }
+    .all{
+        width: 100%;
+        border-radius: 0px;
+    }
+}
